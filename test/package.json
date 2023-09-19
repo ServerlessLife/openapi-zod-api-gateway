@@ -1,0 +1,18 @@
+{
+  "name": "@openapi-zod-api-gateway/test",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test:integration": "sst bind vitest",
+    "typecheck": "tsc -noEmit"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^6",
+    "@tsconfig/node18": "^18.2.0",
+    "@types/aws-lambda": "^8.10.119",
+    "@types/node": "^20.4.8",
+    "sst": "^2.23.3",
+    "vite-tsconfig-paths": "^4.2.0",
+    "vitest": "^0.34.1"
+  }
+}

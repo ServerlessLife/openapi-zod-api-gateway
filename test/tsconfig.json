@@ -1,0 +1,14 @@
+{
+  "extends": "@tsconfig/node18/tsconfig.json",
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "node",
+    "paths": {
+      "@openapi-zod-api-gateway/core/*": ["../packages/core/src/*"],
+      "@common/*": ["../common/*"],
+      "@common/": ["../common"]
+    },
+    "baseUrl": ".",
+    "lib": ["esnext", "dom"],
+  },
+}

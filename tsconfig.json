@@ -1,0 +1,8 @@
+{
+  "extends": "@tsconfig/node18/tsconfig.json",
+  "exclude": [ "test", "common"],
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "node",
+  }
+}
